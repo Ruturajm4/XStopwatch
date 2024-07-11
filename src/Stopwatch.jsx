@@ -45,7 +45,7 @@ export default function Stopwatch(){
             textAlign: "center"
         }}>
             <h3>Stopwatch</h3>
-            <p>Time : {formatTime(time)}</p>
+            <p>Time: {formatTime(time)}</p>
             <button onClick={startStop}>{isRunning?"Stop":"Start"}</button>
             <button onClick={reset}>Reset</button>
         </div>
