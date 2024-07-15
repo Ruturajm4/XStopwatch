@@ -24,7 +24,7 @@ export default function Stopwatch(){
     }
 
     const reset = ()=>{
-       // setRunning(false)
+        setRunning(false)
         setTime(0)
     }
 
